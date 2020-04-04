@@ -16,7 +16,7 @@ using namespace std;
 				for(int j=0;j<s[i]-'0';j++){
 					res+="(";
 				}
-				res+=s[i]; //verify = s[i]-'0';
+				res+=s[i];
 			}
 			else{
 				int p = s[i]-s[i-1];
